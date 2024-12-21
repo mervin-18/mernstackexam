@@ -1,0 +1,33 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: #1e90ff;
+    color: white;
+    padding: 80px 20px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.enroll-btn {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.enroll-btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
