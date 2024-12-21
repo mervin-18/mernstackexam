@@ -6,7 +6,6 @@
     <title>eLearning Website</title>
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -36,6 +35,10 @@
             border-radius: 8px;
             text-align: center;
         }
+        .hero img {
+            max-width: 100%;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
@@ -63,15 +66,20 @@
         <p>Your portal for quality education and courses!</p>
         <a href="javascript:void(0);" class="btn btn-light btn-lg" onclick="showAboutPage()">Learn More About Us</a>
         <a href="javascript:void(0);" class="btn btn-light btn-lg ms-3" onclick="showContactPage()">Contact Us</a>
-        <img src="images.jpeg">
-        <a href="javascript:void(0);" class="btn btn-light btn-lg ms-3" onclick="showContactPage()">Courses</a>
+        <img src="images.jpeg" alt="eLearning Image">
+        <a href="https://www.udemy.com/?srsltid=AfmBOoqyQE0uz2Y6avqIbA84YBtW7crZu50rQpuGQz3wyLQIPb_zTf5A" 
+           class="btn btn-light btn-lg ms-3" target="_blank">
+           Browse Courses
+        </a>
     </div>
 </div>
 
 <!-- ABOUT PAGE -->
 <div id="aboutPage" class="container" style="display:none;">
     <h2 class="text-center mb-4">About eLearning</h2>
-    <p class="lead text-center">About eLearning
+    <p class="lead text-center">
+        <!-- Add your content here -->
+        About eLearning
         In the modern era, technology is changing every facet of our lives, and education is no exception. Traditional methods of teaching, which often require students to be physically present in classrooms, are now being complemented — and in some cases, replaced — by online learning platforms. eLearning, or electronic learning, has revolutionized how we access and engage with educational content, providing unparalleled convenience, flexibility, and a personalized learning experience.
         
         At eLearning, our mission is to harness the power of technology to offer high-quality, accessible education to anyone, anywhere, at any time. We are committed to providing a platform that is not only easy to use but also rich in resources, enabling students to learn at their own pace and according to their individual needs. Whether you're looking to learn new skills, advance your career, or simply explore something new, eLearning is your gateway to a world of knowledge.
@@ -124,7 +132,8 @@
         Conclusion
         At eLearning, we believe that education is a powerful tool that can change lives. Our goal is to make learning accessible to everyone, regardless of their location, background, or schedule. Through our platform, we provide a variety of high-quality courses that cater to diverse learning needs and interests. Whether you are looking to enhance your skills, earn a certification, or simply explore new topics, we are here to help you achieve your educational goals.
         
-        With the ever-changing landscape of education, eLearning has become more than just a trend; it’s a global movement shaping the future of learning. Join us at eLearning and take your first step toward a brighter, more knowledgeable future!</p>
+        With the ever-changing landscape of education, eLearning has become more than just a trend; it’s a global movement shaping the future of learning. Join us at eLearning and take your first step toward a brighter, more knowledgeable future!
+    </p>
     <a href="javascript:void(0);" class="btn btn-primary w-100" onclick="showHomePage()">Back to Home</a>
 </div>
 
